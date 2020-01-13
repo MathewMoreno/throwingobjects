@@ -177,7 +177,8 @@ game.onUpdateInterval(500, function () {
     Ball()
 })
 forever(function () {
-    pause(1500)
+    pause(1300)
     Cloudy.setPosition(Math.randomRange(10, 150), 15)
+    pause(200)
     Raindrop()
 })
